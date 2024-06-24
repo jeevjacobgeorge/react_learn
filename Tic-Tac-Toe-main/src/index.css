@@ -6,66 +6,68 @@
 body {
   margin: 20px;
   padding: 0;
-  background: #f8f9fa;
-  color: #212529;
+  background: #000000;
+  color: #f8f9fa;
 }
 
 h1 {
   margin-top: 0;
   font-size: 22px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 h2 {
   margin-top: 0;
   font-size: 20px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 h3 {
   margin-top: 0;
   font-size: 18px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 h4 {
   margin-top: 0;
   font-size: 16px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 h5 {
   margin-top: 0;
   font-size: 14px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 h6 {
   margin-top: 0;
   font-size: 12px;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 code {
   font-size: 1.2em;
-  background: #e9ecef;
+  background: #343a40;
   padding: 0.2em 0.4em;
   border-radius: 0.3em;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 ul {
   padding-inline-start: 20px;
+  color: #f8f9fa;
 }
 
 ol {
   padding: 0;
   margin: 2rem;
+  color: #f8f9fa;
 }
 
 .square {
-  background: #ffffff;
-  border: 1px solid #ced4da;
+  background: #343a40;
+  border: 1px solid #495057;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -76,12 +78,12 @@ ol {
   padding: 0;
   text-align: center;
   width: 4rem;
-  color: #212529;
+  color: #f8f9fa;
   cursor: pointer;
 }
 
 .square:hover {
-  background: #e9ecef;
+  background: #495057;
 }
 
 .board-row:after {
@@ -99,7 +101,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 .game {
@@ -110,7 +112,7 @@ ol {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: #f8f9fa;
+  background: #000000;
 }
 
 .game-info {
@@ -120,15 +122,15 @@ ol {
 .button {
   width: 8rem;
   height: 2rem;
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
+  background-color: #28a745;
+  border: 1px solid #218838;
   margin: 0.2rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  color: #155724;
+  color: #f8f9fa;
   font-weight: bold;
 }
 
 .button:hover {
-  background-color: #c3e6cb;
+  background-color: #218838;
 }
